@@ -1,0 +1,40 @@
+{
+  "name": "mastiff_brasil",
+  "version": "1.0.0",
+  "description": "Site de apresentação e contato do Msatiff Tibettano.",
+  "repository": "",
+  "author": "Jackalopy Dev Team <victor.coelho@bolha.com.br>",
+  "dependencies": {
+    "dragdealer": "^0.9.9",
+    "gsap": "^1.16.1",
+    "jquery": "^2.1.4",
+    "scrollreveal": "^2.3.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-cache": "^0.2.9",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-nunjucks": "^1.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browser": {
+    "gsap-tween-lite": "./node_modules/gsap/src/uncompressed/TweenLite.js",
+    "gsap-jquery": "./node_modules/gsap/src/uncompressed/jquery.gsap.js",
+    "gsap-css-plugin": "./node_modules/gsap/src/uncompressed/plugins/CSSPlugin.js",
+    "gsap-scroll-to": "./node_modules/gsap/src/uncompressed/plugins/ScrollToPlugin.js",
+    "gsap-draggable": "./node_modules/gsap/src/uncompressed/utils/Draggable.js"
+  }
+}

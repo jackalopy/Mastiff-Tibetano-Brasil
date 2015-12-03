@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^/?$ ./build/landing.php?lang=pt
+RewriteRule ^(en|pt|sp)$ ./build/landing.php?lang=$1
+RewriteRule ^assets/(.*)$ ./build/assets/$1
