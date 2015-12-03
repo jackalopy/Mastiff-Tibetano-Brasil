@@ -1,8 +1,8 @@
 <?php
-    define('ENV', 'DEV');
+    define('ENV', 'PROD');
     
     if(ENV == 'DEV') {
-        define('BASE_URL', '//mastiff-mendizabal.c9.io/');
+        define('BASE_URL', '//mastifftibetanobrasil.com.br/');
     } elseif(ENV == 'PROD') {
         define('BASE_URL', '//mastifftibetanobrasil.com.br/');
     }
