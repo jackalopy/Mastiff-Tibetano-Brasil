@@ -2,7 +2,7 @@
     class Data {
         public static $meta = array(
             "title" => "Mastiff Tibetano Brasil",
-            "description" => "Descrição",
+            "description" => "Mastiff Tibetano, grande cão do Tibet, disponível no Brasil e América Latina. Reserve um verdadeiro filhote vermelho de Mastiff Tibetano.",
             "image" => "share.jpg",
             "keywords" => "mastiff, mastiff tibetano, mastín tibetan, buy dog, dog, cachorro, cachorros",
             "site" => "http://www.mastifftibetanobrasil.com",
