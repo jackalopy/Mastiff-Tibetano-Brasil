@@ -1,5 +1,5 @@
 <?php
-    define('ENV', 'DEV');
+    define('ENV', 'PROD');
     
     if(ENV == 'DEV') {
         define('BASE_URL', '//mastifftibetanobrasil.esy.es/');
